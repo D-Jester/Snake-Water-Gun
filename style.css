@@ -1,0 +1,114 @@
+html, body{
+    height: 100%;
+    margin:0;
+}
+
+body{
+    /*background image used*/
+    background-image: url("background.jpeg");
+
+    /*full height*/
+    height:100%;
+
+    /*Center and scale image*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#s{
+    color: #fff;
+}
+
+#w{
+    color: #fff;
+}
+
+#g{
+    color: #fff;
+
+}
+
+.heading{
+    text-align: center;
+    font-size: 500%;
+    top: 50%;
+    left:50%;
+    font-family: cursive;
+    animation: slow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 20px #79f30e;
+
+}
+
+.heading:hover{
+    text-shadow: 0 0 20px #79f30e, 0 0 25px #79f30e, 0 0 30px #79f30e, 0 0 50px #79f30e, 0 0 75px #79f30e, 0 0 100px #79f30e;
+}
+
+#start{
+    position: absolute;
+    top: 20%;
+    left:47%;
+    box-shadow: 0 0 20px rgb(214, 51, 15);
+}
+
+#start:hover{
+    box-shadow: 0 0 20px rgb(214, 51, 15), 0 0 25px rgb(214, 51, 15), 0 0 50px rgb(214, 51, 15), 0 0 100px rgb(214, 51, 15);
+}
+
+#computer{
+    position: absolute;
+    left:2%; 
+    height: 300px
+}
+
+#user{
+    height: 300px;
+    position:absolute;
+    left: 78.5%;
+}
+
+#user_choice{
+    position: absolute;
+    top: 70%;
+    left:82.3%;
+    box-shadow:0 0 20px #b8c6ac;
+}
+
+#user_choice:hover{
+    box-shadow: 0 0 20px #b8c6ac, 0 0 25px #b8c6ac, 0 0 50px rgb(213, 20, 197) , 0 0 75px rgb(214, 51, 15) ;
+}
+
+#return{
+    position: absolute;
+    top: 80%;
+    left: 34%;
+    width: 290px;
+    box-shadow:0 0 20px #b8c6ac;
+}
+
+#return:hover{
+    box-shadow: 0 0 20px #b8c6ac, 0 0 25px #b8c6ac, 0 0 50px rgb(213, 20, 197) , 0 0 75px rgb(214, 51, 15) ;    
+}
+
+#message{
+    position: absolute;
+    background: linear-gradient(to left,
+                    violet,
+                    indigo,
+                    blue,
+                    rgb(104, 172, 104),
+                    yellow,
+                    orange,
+                    red);
+                    -webkit-background-clip: text;
+                    color: transparent;
+    left: 44%;
+    top: 40%;
+    font-size: xx-large;
+    text-shadow: 0 0 20px rgb(157, 66, 66), 0 0 25px rgb(162, 40, 40);
+    font-family: cursive;
+}
+
+#message:hover{
+    text-shadow: 0 0 20px rgb(157, 66, 66), 0 0 25px rgb(162, 40, 40), 0 0 50px rgb(224, 23, 23), 0 0 75px rgb(208, 228, 25);
+}
